@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato|Raleway");
+
+body {
+    background-color: #515E7B;
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #1d2124;
+    margin-top: 70px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/*Preloader start>*/
+#p_prldr{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    background: #515E7B; /*#6c757d*/
+    z-index: 30;}
+
+.contpre small{font-size:25px;}
+
+.contpre{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 50%;top: 48%;
+    margin-left:-125px;
+    margin-top:-75px;
+    color:#fff;
+    font-size:40px;
+    letter-spacing:-2px;
+    text-align:center;
+    line-height:35px;}
+
+#p_prldr .svg_anm {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    background: url("../img/tail-spin.svg") center center no-repeat;
+    background-size:41px;
+    margin: -16px 0 0 -16px;}
+/*Preloader end*/
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato", serif;
+    font-style: italic;
+    font-weight: 800;
+    color: #cccccc;
+}
+
+.centered {
+    text-align: center;
+}
+
+a {
+    color: #9D9D9D;
+}
+
+a:hover, a:focus {
+    color: #7abaff !important;
+    text-decoration: none;
+    outline: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+
+}
+
+.navbar-inverse {
+    background: #183153;
+    border-color: #515E7B;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    border-color: #7abaff;
+}
+
+.navbar-brand {
+    color: #7abaff;
+    font-size: 1.5em;
+    padding-top: 5px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #9D9D9D;
+    font-size: 1.5em;
+    padding-top: 5px;
+}
+
+#headerwrap {
+    background: url("../img/bus-index.png") no-repeat center center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+    margin-top: 70px;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-align: left;
+}
+
+#headerwrap h2 {
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.tilt {
+    background-color: #515E7B;  overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+
+#actions {
+    padding-top: 70px;
+}
+
+#actions h1 {
+    font-size: 50px;
+}
+
+.tilt {
+    -webkit-transition: all 0.5s ease;
+}
+
+.tilt:hover {
+    -webkit-transform: rotate(-10deg);
+}
+
+.wb {
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #E4D9D7;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.wb h1 {
+    color: #515E7B;
+    font-size: 40px;
+}
+
+#social {
+    background: #183153;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#social i {
+    color: #cccccc;
+    font-size: 35px;
+    padding-right: 20px;
+}
+
+#social i:hover {
+    color: #7abaff;
+}
+
+.table {
+    font-size: 25px;
+    color: #cccccc;
+}
+
+.bus-form {
+    padding-top: 70px;
+}
+
+.formCont {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #515E7B;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+h2.inactive {
+    color: #cccccc;
+}
+
+h2.active {
+    color: #0d0d0d;
+    border-bottom: 2px solid #5fbae9;
+}
